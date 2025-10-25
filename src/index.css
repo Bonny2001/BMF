@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+    scroll-behavior: smooth;
+}
+
+.font-hero {
+    font-family: "BBH Sans Hegarty", sans-serif;
+}
+
+.font-hero2 {
+    font-family: "BBH Sans Bartle", sans-serif;
+
+}
+
+.font-hero3 {
+    font-family: "BBH Sans Bogle", sans-serif;
+}
+
+.font-hero4 {
+    font-family: "Poppins", sans-serif;
+}
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.anim1 {
+    opacity: 0;
+    transform: translate3d(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
