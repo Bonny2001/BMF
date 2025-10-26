@@ -17,7 +17,7 @@ const Social = () => {
     ];
 
     return (
-        <div className="flex flex-col justify-center items-center gap-10 my-16 px-4">
+        <div className="flex flex-col justify-center items-center gap-10 my-16 lg:my-16 lg:px-4">
             {/* Heading */}
             <h1 className="text-white font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tight leading-tight text-center">
                 BMF Mixtape <span className="text-red-500">Live</span>

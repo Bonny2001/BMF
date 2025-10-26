@@ -3,7 +3,7 @@ import data from './Data';
 
 const Member = () => {
     return (
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-20 mb-20 px-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-2 mt-10 mb-10 px-0.5 lg:gap-8 lg:mt-20 lg:mb-20 lg:px-4">
             {data.map((member) => (
                 <div
                     key={member.id}
