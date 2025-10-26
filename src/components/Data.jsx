@@ -30,28 +30,28 @@ const data =
         },
         {
             id: 5,
-            name: "Ritam",
+            name: "Soujatya",
             role: "Head Member",
             image: "bmf-cover.jpg",
             bio: "Passionate about creating beautiful and functional user interfaces."
         },
         {
             id: 6,
-            name: "Sanu",
+            name: "Biswarup",
             role: "Head Member",
             image: "bmf-cover10.jpg",
             bio: "Loves building robust server-side applications and APIs."
         },
         {
             id: 7,
-            name: "Rahul",
+            name: "Somnath",
             role: "Head Member",
             image: "bmf-cover12.jpg",
             bio: "Dedicated to crafting intuitive and engaging user experiences."
         },
         {
             id: 8,
-            name: "Shovan",
+            name: "Ratul",
             role: "Head Member",
             image: "bmf-cover11.jpg",
             bio: "Enjoys working on scalable backend systems and databases."
