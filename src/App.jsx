@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Home from './components/Home'
 import Member from './components/Member'
+import Footer from './components/Footer'
 const App = () => {
   return (
 
@@ -49,6 +50,7 @@ const App = () => {
             />
           </div>
         </div>
+        <Footer />
       </BrowserRouter>
 
     </>

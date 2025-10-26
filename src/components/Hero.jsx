@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Hero = () => {
     const navigate = useNavigate();
     return (
-        <section className="bg-transparent dark:bg-gray-900 h-[75vh] lg:h-[85vh]">
+        <section className="bg-transparent dark:bg-gray-900 h-[78vh] lg:h-[85vh]">
             <div className=" max-w-screen-xl px-4 py-6 mx-auto lg:py-16 flex flex-col-reverse lg:flex-row-reverse items-center lg:justify-between lg:gap-8">
 
                 {/* Left Content */}
